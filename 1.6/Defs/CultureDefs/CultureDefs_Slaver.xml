@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Cultures and Styles __________-->
+
+    <!--_____ Slavers _____-->
+
+    <!-- Cultures -->
+    
+    <CultureDef>
+        <defName>FCP_Culture_Slaver</defName>
+        <label>Slaver</label>
+        <description>Culture of those who profit from the slave trade in the wasteland.</description>
+        <pawnNameMaker>FCP_Raider_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_Raider_Namer_Female</pawnNameMakerFemale>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Slaver</leaderTitleMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <iconPath>UI/Icons/WorldFactionIcons/PiratesWaster</iconPath>
+        <styleItemTags>
+            <li>
+                <tag>Wasteland</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>0.8</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Rural</tag>
+                <baseWeight>0.5</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>BeardUrban</tag>
+                <baseWeight>0.6</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+    </CultureDef>
+
+    <!-- Styles -->
+    
+    <StyleCategoryDef>
+        <defName>FCP_Style_Slaver</defName>
+        <label>Slaver</label>
+        <iconPath>UI/Icons/WorldFactionIcons/PiratesWaster</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+</Defs>
+

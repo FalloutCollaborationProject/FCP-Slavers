@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers</xpath>
+                <value>
+                    <li>
+                        <kindDef>Combat</kindDef>
+                        <disallowedStrategies>
+                            <li>EmergeFromWater</li>
+                        </disallowedStrategies>
+                        <options>
+                            <FCP_Slaver_Guard>10</FCP_Slaver_Guard>
+                            <FCP_Slaver_Collarer_Pawn>8</FCP_Slaver_Collarer_Pawn>
+                            <FCP_Slaver_Enforcer_Pawn>7</FCP_Slaver_Enforcer_Pawn>
+                            <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
+                        </options>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers/li[kindDef="Peaceful"]/options</xpath>
+                <value>
+                    <FCP_Slaver_Boss>3</FCP_Slaver_Boss>
+                    <FCP_Slaver_Trader>5</FCP_Slaver_Trader>
+                    <FCP_Slaver_Guard>6</FCP_Slaver_Guard>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+                <value>
+                    <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
+                    <FCP_Slaver_Trader>4</FCP_Slaver_Trader>
+                    <FCP_Slaver_Guard>8</FCP_Slaver_Guard>
+                    <FCP_Slaver_Collarer_Pawn>6</FCP_Slaver_Collarer_Pawn>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

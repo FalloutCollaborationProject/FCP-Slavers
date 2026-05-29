@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Title Defs __________-->
+
+    <!--_____ Slaver Titles _____-->
+
+    <!-- Slaver Capturer -->
+    
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Slaver_Capturer</defName>
+        <label>capturer</label>
+        <description>An entry-level position in the slave trade. Capturers hunt down targets and bring in fresh merchandise.</description>
+        <tags>
+            <li>FCP_Title_Slaver</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>false</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Slaver Handler -->
+    
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Slaver_Handler</defName>
+        <label>handler</label>
+        <description>A handler manages slaves and ensures they remain compliant. They keep the merchandise in good enough condition to sell.</description>
+        <tags>
+            <li>FCP_Title_Slaver</li>
+        </tags>
+        <seniority>100</seniority>
+        <favorCost>4</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>false</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Slaver Enforcer -->
+    
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Slaver_Enforcer</defName>
+        <label>enforcer</label>
+        <description>Enforcers serve as muscle and security. They prevent escapes, crush resistance, and protect slaver operations from threats.</description>
+        <tags>
+            <li>FCP_Title_Slaver</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>7</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>false</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Slaver Overseer -->
+    
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Slaver_Overseer</defName>
+        <label>overseer</label>
+        <description>Overseers coordinate operations and manage the lower ranks. They ensure efficiency in capture, transport, and sale of slaves.</description>
+        <tags>
+            <li>FCP_Title_Slaver</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>true</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Slaver Boss -->
+    
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Slaver_Boss</defName>
+        <label>slaver boss</label>
+        <description>A boss runs entire slaving operations. They control territory, manage networks, and make all major decisions. Few reach this level of power in the slave trade.</description>
+        <tags>
+            <li>FCP_Title_Slaver</li>
+        </tags>
+        <seniority>400</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>true</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

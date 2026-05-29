@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Slavers _____-->
+
+    <!-- Base Slaver -->
+    
+    <PawnKindDef Name="FCP_SlaverBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_Slaver</defaultFactionType>
+        <chemicalAddictionChance>0.15</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    </PawnKindDef>
+
+    <!-- Slaver Boss -->
+    
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Slaver_Boss</defName>
+        <label>slaver boss</label>
+        <labelPlural>slaver bosses</labelPlural>
+        <combatPower>120</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.8</gearHealthRange>
+        <apparelMoney>1200~2000</apparelMoney>
+        <weaponMoney>800~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li>IndustrialGunAdvanced</li>
+            <li>IndustrialMeleeAdvanced</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slavers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <li>
+                <def>Psychopath</def>
+            </li>
+        </forcedTraits>
+        <initialWillRange>3~6</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.50</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>50~150</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.Chems">FCP_Chem_Psycho</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.Chems">FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.Chems">FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Slaver Collarer -->
+    
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Slaver_Collarer_Pawn</defName>
+        <label>slaver collarer</label>
+        <labelPlural>slaver collarers</labelPlural>
+        <combatPower>75</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.5</gearHealthRange>
+        <apparelMoney>600~1000</apparelMoney>
+        <weaponMoney>400~700</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Pistol</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slavers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <li>
+                <def>FCP_Trait_Quick_Draw</def>
+            </li>
+        </forcedTraits>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.75</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~50</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Slaver Enforcer -->
+    
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Slaver_Enforcer_Pawn</defName>
+        <label>slaver enforcer</label>
+        <labelPlural>slaver enforcers</labelPlural>
+        <combatPower>90</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>800~1400</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Bladed</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slavers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <li>
+                <def>FCP_Trait_Heavy_Handed</def>
+            </li>
+        </forcedTraits>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>25~100</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Slaver Guard -->
+    
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Slaver_Guard</defName>
+        <label>slaver guard</label>
+        <labelPlural>slaver guards</labelPlural>
+        <combatPower>85</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>700~1200</apparelMoney>
+        <weaponMoney>500~800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slavers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>18~28</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>25~100</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Slaver Trader -->
+    
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Slaver_Trader</defName>
+        <label>slaver trader</label>
+        <labelPlural>slaver traders</labelPlural>
+        <combatPower>60</combatPower>
+        <trader>true</trader>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~1.7</gearHealthRange>
+        <apparelMoney>900~1500</apparelMoney>
+        <weaponMoney>400~600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li>Gun</li>
+            <li>MeleeIndustrial</li>
+            <li>NeolithicMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slavers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <li>
+                <def>Greedy</def>
+            </li>
+        </forcedTraits>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>12~20</initialResistanceRange>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+</Defs>

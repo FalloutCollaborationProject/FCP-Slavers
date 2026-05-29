@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Slavers _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_Slaver_Enlist_Letter_Title>You have joined {FACTION_name}.</FCP_Slaver_Enlist_Letter_Title>
+	<FCP_Slaver_Enlist_Letter_Label>Welcome to Paradise Falls. You've proven yourself useful, and that's all that matters here. We deal in merchandise, pure and simple. Bring us quality stock, and you'll be rewarded handsomely.\n\nYour cut comes every ten days. Don't expect handouts - you earn what you deliver. We've got holding facilities at our compounds where you can stash goods between runs. The boss has work for anyone willing to get their hands dirty.\n\nRemember: business is business. Keep the merchandise in good condition, and we'll all profit.</FCP_Slaver_Enlist_Letter_Label>
+	<FCP_Slaver_Enlist_Button_Label>Join {FACTION_name}.</FCP_Slaver_Enlist_Button_Label>
+	<FCP_Slaver_Enlist_Button_Desc>Enter into a business arrangement with {FACTION_name}.</FCP_Slaver_Enlist_Button_Desc>
+	<FCP_Slaver_Enlist_Requrements_Not_Satisfied>You need minimum {0} standing, currently you have only {1}.</FCP_Slaver_Enlist_Requrements_Not_Satisfied>
+	<FCP_Slaver_Enlisted_With_Key>Associated with: {FACTION_name}</FCP_Slaver_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_Slaver_Missions_Label>Contracts</FCP_Slaver_Missions_Label>
+	<FCP_Slaver_Missions_Desc>Available contracts and bounties</FCP_Slaver_Missions_Desc>
+	<FCP_Slaver_Menu_Missions_Desc>The boss has work that needs doing. Pays well if you can handle it.</FCP_Slaver_Menu_Missions_Desc>
+	<FCP_Slaver_Menu_Missions_Select_Quest>Select Contract: </FCP_Slaver_Menu_Missions_Select_Quest>
+	<FCP_Slaver_Menu_Missions_Start_Quest>Take Contract ({0})</FCP_Slaver_Menu_Missions_Start_Quest>
+	<FCP_Slaver_Not_Enough_Money>Insufficient funds</FCP_Slaver_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_Slaver_Salary_Label>Commission</FCP_Slaver_Salary_Label>
+	<FCP_Slaver_Salary_Desc>Collect your cut from Paradise Falls operations every 10 days.</FCP_Slaver_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_Slaver_Provisions_Label>Supplies</FCP_Slaver_Provisions_Label>
+	<FCP_Slaver_Provisions_Desc>Basic supplies restocked to your caravan every 15 days:\n\n- 12 Survival meal\n- 4 Medicine</FCP_Slaver_Provisions_Desc>
+
+	<!-- Storage Options -->
+
+	<FCP_Slaver_Storage_Label>Holding</FCP_Slaver_Storage_Label>
+	<FCP_Slaver_Storage_Desc>Store items at Paradise Falls facilities. Holdings are accessible at any compound and remain secure even if you end your association.</FCP_Slaver_Storage_Desc>
+	<FCP_Slaver_Storage_Inventory>Holding inventory</FCP_Slaver_Storage_Inventory>
+	<FCP_Slaver_Caravan_Inventory>Caravan inventory</FCP_Slaver_Caravan_Inventory>
+
+	<!-- Work Options -->
+
+	<FCP_Slaver_Guard_Duty_Label>Guard Duty</FCP_Slaver_Guard_Duty_Label>
+	<FCP_Slaver_Guard_Duty_Desc>Pull shifts watching the pens and patrolling the compound for $15 an hour.</FCP_Slaver_Guard_Duty_Desc>
+
+	<!-- Bounty Options -->
+
+	<FCP_Slaver_Turn_In_Label>Deliver Merchandise</FCP_Slaver_Turn_In_Label>
+	<FCP_Slaver_Turn_In_Desc>Deliver captured prisoners to Paradise Falls for payment.\n\n-Delivering hostile pawns does not incur slavery penalties-</FCP_Slaver_Turn_In_Desc>
+	<FCP_Slaver_Turn_In_Trader_Name>Paradise Falls Slaver Boss</FCP_Slaver_Turn_In_Trader_Name>
+
+	<!-- Resign Options -->
+
+	<FCP_Slaver_Resign_Menu_Text>You will sever ties with Paradise Falls. They don't take kindly to desertion. (-15 standing)</FCP_Slaver_Resign_Menu_Text>
+	<FCP_Slaver_Resign_Letter_Title>Business Concluded</FCP_Slaver_Resign_Letter_Title>
+	<FCP_Slaver_Resign_Letter_Label>Resign</FCP_Slaver_Resign_Letter_Label>
+	<FCP_Slaver_Resign_Button_Label>You've ended your association with Paradise Falls. (-15 standing)</FCP_Slaver_Resign_Button_Label>
+	<FCP_Slaver_Resign_Button_Desc>End your association with this faction.</FCP_Slaver_Resign_Button_Desc>
+	<FCP_Slaver_Enlisted_To_Hostile_Faction>cannot join because you work with their enemy, {HOSTILEFACTION_name}</FCP_Slaver_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_Slaver_Kick_Out_Letter_Title>Expelled</FCP_Slaver_Kick_Out_Letter_Title>
+	<FCP_Slaver_Kick_Out_Label_Title>{LEADER_nameDef} has terminated your contract with extreme prejudice. You are no longer welcome at {FACTION_name}.</FCP_Slaver_Kick_Out_Label_Title>
+
+</LanguageData>

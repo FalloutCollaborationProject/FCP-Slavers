@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Faction Defs __________-->
+
+    <!--_____ Slavers _____-->
+
+    <!-- Paradise Falls Slavers -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_Slaver</defName>
+        <label>Slavers</label>
+        <description>The Slavers operate a brutal business in human trafficking. Based out of fortified camps like the infamous Paradise Falls, they capture wastelanders and sell them to the highest bidder. Their organization is hierarchical and businesslike, treating people as nothing more than merchandise. While despised by most, they're tolerated in some areas due to their wealth and connections. They pay well for captures and aren't picky about who supplies them.</description>
+        <royalTitleTags>
+            <li>FCP_Title_Slaver</li>
+        </royalTitleTags>
+        <royalFavorLabel>Deliveries</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+        </royalTitleInheritanceRelations>
+        <colorSpectrum>
+            <li>(0.7, 0.7, 0.7)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>slaver</pawnSingular>
+        <pawnsPlural>slavers</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.5</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <permanentEnemy>true</permanentEnemy>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Master</leaderTitle>
+        <factionIconPath>UI/Icons/WorldFactionIcons/PiratesWaster</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>Paradise Falls</fixedName>
+        <settlementNameMaker>FCP_Namer_Settlement_Slavers</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_Slaver</li>
+        </allowedCultures>
+        <fixedLeaderKinds>
+            <li>FCP_Slaver_Boss</li>
+        </fixedLeaderKinds>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Profit Over People</ideoName>
+        <ideoDescription>The Slavers live by a simple creed: everything has a price, especially people. They see themselves as businessmen providing a service, not monsters. In their view, slavery is just the natural order - the strong dominate the weak, and there's profit to be made.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Slaver</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Slavers</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>FCP_Caravan_Slaver_Slave_Trader</li>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+            <li>Visitor_Neolithic_Standard</li>
+        </visitorTraderKinds>
+
+        <baseTraderKinds>
+            <li>Base_Neolithic_Standard</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_SlaverRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Slaver_Guard>10</FCP_Slaver_Guard>
+                    <FCP_Slaver_Collarer_Pawn>8</FCP_Slaver_Collarer_Pawn>
+                    <FCP_Slaver_Enforcer_Pawn>7</FCP_Slaver_Enforcer_Pawn>
+                    <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
+                    <FCP_Slaver_Trader>5</FCP_Slaver_Trader>
+                    <FCP_Slaver_Guard>6</FCP_Slaver_Guard>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
+                    <FCP_Slaver_Trader>4</FCP_Slaver_Trader>
+                    <FCP_Slaver_Guard>8</FCP_Slaver_Guard>
+                    <FCP_Slaver_Collarer_Pawn>6</FCP_Slaver_Collarer_Pawn>
+                    <FCP_Slaver_Enforcer_Pawn>5</FCP_Slaver_Enforcer_Pawn>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <modExtensions Inherit="False">
+            <li Class="FCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Wasteland Slavers</newLabel>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_Slaver</ideoIconDef>
+                <ideoColorDef>DarkGrey</ideoColorDef>
+                <memberName>Slaver</memberName>
+                <adjective>Slaver Ring</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Handler</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                </roleOverrides>
+            </li>
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_Slaver</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_SlaverRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>Gold</li>
+                        <li>MedicineIndustrial</li>
+                        <li>ComponentIndustrial</li>
+                        <li>Steel</li>
+                        <li>Cloth</li>
+                        <li>SmokeleafJoint</li>
+                        <li>Beer</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Psycho</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Buffout</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Mentats</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Stimpak</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_MedX</li>
+                        <li>FCP_Currency_Caps</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <!-- About Information -->
-
     <packageId>Rick.FCP.Slavers</packageId>
     <author>Rick</author>
     <name>FCP - Slavers</name>
     <description>The Fallout Collaboration Project Presents: Slavers, a Faction and Armory Mod.</description>
     <supportedVersions>
-        <li>1.5</li>
+        <li>1.6</li>
     </supportedVersions>
     <modDependencies>
         <li>
@@ -16,9 +14,21 @@
             <displayName>FCP - Tools</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
         </li>
+        <li>
+            <packageId>Rick.FCP.Raiders</packageId>
+            <displayName>FCP - Raiders</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Raiders</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Wastelanders</packageId>
+            <displayName>FCP - Wastelanders</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
+        </li>
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.Raiders</li>
+        <li>Rick.FCP.Wastelanders</li>
     </loadAfter>
 
 </ModMetaData>

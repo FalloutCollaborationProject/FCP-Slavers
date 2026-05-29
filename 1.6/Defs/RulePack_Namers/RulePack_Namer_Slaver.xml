@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Settlement Namer __________-->
+
+    <!--_____ Slavers _____-->
+
+    <!-- Slaver Settlement Names -->
+    
+    <RulePackDef>
+        <defName>FCP_Namer_Settlement_Slavers</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->Paradise Falls</li>
+                <li>name->The Pens</li>
+                <li>name->Slaver's Haven</li>
+                <li>name->The Market</li>
+                <li>name->Chain Town</li>
+                <li>name->Auction House</li>
+                <li>name->Collar Camp</li>
+                <li>name->The Stockade</li>
+                <li>name->Trade Post</li>
+                <li>name->The Blocks</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

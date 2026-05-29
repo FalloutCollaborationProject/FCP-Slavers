@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Slavers ___-->
+
+    <!--__ Adults __-->
+    
+    <!-- Slaver Collarer -->
+    
+    <BackstoryDef>
+        <defName>FCP_Slaver_Collarer</defName>
+        <title>slaver collarer</title>
+        <titleShort>collarer</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in capturing live prey for the slaver markets. [PAWN_pronoun] perfected the use of shock collars and mesmetrons to subdue targets without killing them.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Overseer</defName>
+        <title>slave overseer</title>
+        <titleShort>overseer</titleShort>
+        <baseDesc>[PAWN_nameDef] kept slaves in line through brutality and fear. [PAWN_pronoun] became an expert at breaking spirits and maximizing productivity from captive labor.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>-3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Trader</defName>
+        <title>slave trader</title>
+        <titleShort>trader</titleShort>
+        <baseDesc>[PAWN_nameDef] dealt in human cargo, negotiating prices and arranging sales across the wasteland. [PAWN_pronoun] viewed people as nothing more than commodities to be bought and sold.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_ParadiseFalls</defName>
+        <title>Paradise Falls slaver</title>
+        <titleShort>slaver</titleShort>
+        <baseDesc>[PAWN_nameDef] operated out of Paradise Falls, the infamous slaver hub. [PAWN_pronoun] raided settlements and captured wastelanders to sell at the slave markets.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_FormerSlave</defName>
+        <title>former slave turned slaver</title>
+        <titleShort>turncoat</titleShort>
+        <baseDesc>[PAWN_nameDef] was once a slave who earned freedom by betraying fellow captives. [PAWN_pronoun] now works for the masters, using intimate knowledge of slave psychology to prevent escapes.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_PittRecruiter</defName>
+        <title>Pitt recruiter</title>
+        <titleShort>recruiter</titleShort>
+        <baseDesc>[PAWN_nameDef] "recruited" workers for The Pitt's steel mills. [PAWN_pronoun] used lies and force to trick or capture people into a lifetime of industrial slavery.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Shooting>3</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_ChildCatcher</defName>
+        <title>child catcher</title>
+        <titleShort>catcher</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in capturing children for the slave markets. Young slaves fetched high prices, and [PAWN_pronoun] had no qualms about orphaning families.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>4</Melee>
+            <Social>-2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_CollarTech</defName>
+        <title>collar technician</title>
+        <titleShort>tech</titleShort>
+        <baseDesc>[PAWN_nameDef] maintained the electronic slave collars that kept captives compliant. [PAWN_pronoun] ensured every collar was properly calibrated to deliver maximum pain without killing the merchandise.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>4</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_CaravanGuard</defName>
+        <title>slave caravan guard</title>
+        <titleShort>guard</titleShort>
+        <baseDesc>[PAWN_nameDef] escorted slave caravans across dangerous wasteland territories. [PAWN_pronoun] became skilled at preventing escapes while fending off raiders and wildlife.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Breaker</defName>
+        <title>slave breaker</title>
+        <titleShort>breaker</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in "breaking in" new slaves, crushing their will to resist through psychological and physical torture. [PAWN_pronoun] took pride in creating obedient chattel.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+            <li>Social</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Appraiser</defName>
+        <title>slave appraiser</title>
+        <titleShort>appraiser</titleShort>
+        <baseDesc>[PAWN_nameDef] evaluated captured slaves to determine their market value. [PAWN_pronoun] assessed physical condition, skills, and potential uses with cold, calculating efficiency.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>4</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_RaidLeader</defName>
+        <title>slaver raid leader</title>
+        <titleShort>raid leader</titleShort>
+        <baseDesc>[PAWN_nameDef] led raiding parties to capture fresh slaves from settlements and caravans. [PAWN_pronoun] planned ambushes and coordinated attacks to maximize captures while minimizing damage to the merchandise.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_PenKeeper</defName>
+        <title>slave pen keeper</title>
+        <titleShort>pen keeper</titleShort>
+        <baseDesc>[PAWN_nameDef] managed the holding pens where slaves were kept before sale. [PAWN_pronoun] kept them alive and presentable while ensuring none could escape.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Melee>4</Melee>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Mesmetron</defName>
+        <title>mesmetron specialist</title>
+        <titleShort>mesmetron user</titleShort>
+        <baseDesc>[PAWN_nameDef] mastered the use of the mesmetron, a device that hypnotizes targets into submission. [PAWN_pronoun] could capture marks without a fight, making them walk willingly into bondage.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Enforcer</defName>
+        <title>slaver enforcer</title>
+        <titleShort>enforcer</titleShort>
+        <baseDesc>[PAWN_nameDef] served as muscle for slaving operations, intimidating both slaves and rivals. [PAWN_pronoun] dealt with escape attempts through brutal public punishments.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>3</Shooting>
+            <Social>-3</Social>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_VaultHunter</defName>
+        <title>vault dweller hunter</title>
+        <titleShort>vault hunter</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in raiding vaults for their inhabitants. Vault dwellers were prized as slaves - healthy, educated, and unused to wasteland hardships made them easy to control.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Construction>3</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Auctioneer</defName>
+        <title>slave auctioneer</title>
+        <titleShort>auctioneer</titleShort>
+        <baseDesc>[PAWN_nameDef] conducted slave auctions, driving up prices through showmanship and manipulation. [PAWN_pronoun] presented human beings like livestock, emphasizing their qualities to maximize profits.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Tracker</defName>
+        <title>escaped slave tracker</title>
+        <titleShort>tracker</titleShort>
+        <baseDesc>[PAWN_nameDef] hunted down escaped slaves across the wasteland. [PAWN_pronoun] used tracking skills and knowledge of the terrain to recapture runaways, making brutal examples of them.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Animals>4</Animals>
+            <Melee>3</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_ChemDealer</defName>
+        <title>slave chem dealer</title>
+        <titleShort>chem dealer</titleShort>
+        <baseDesc>[PAWN_nameDef] kept slaves addicted to chems to ensure compliance. [PAWN_pronoun] controlled the supply, making slaves dependent and desperate for their next fix.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>3</Crafting>
+            <Social>3</Social>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_BrandingMaster</defName>
+        <title>branding master</title>
+        <titleShort>brander</titleShort>
+        <baseDesc>[PAWN_nameDef] marked slaves with hot irons or tattoos to denote ownership. [PAWN_pronoun] took grim satisfaction in permanently marking captives as property.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slavers</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Artistic>3</Artistic>
+            <Melee>2</Melee>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Heavy_Handed>0</FCP_Trait_Heavy_Handed>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+</Defs>

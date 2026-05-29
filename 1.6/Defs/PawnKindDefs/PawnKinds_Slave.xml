@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Slaves _____-->
+
+    <!-- Wasteland Slave -->
+    
+    <PawnKindDef>
+        <defName>FCP_Slaver_Slave</defName>
+        <label>wasteland slave</label>
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_Slaver</defaultFactionType>
+        <maxGenerationAge>60</maxGenerationAge>
+        <combatPower>30</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.2~1.1</gearHealthRange>
+        <apparelTags>
+            <li>FCP_Slave_Apparel</li>
+        </apparelTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>4~8</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Wastelander</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

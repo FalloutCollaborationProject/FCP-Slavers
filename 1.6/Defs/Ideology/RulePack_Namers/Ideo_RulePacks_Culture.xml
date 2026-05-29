@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Rule Strings for Leaders -->
+
+    <RulePackDef>
+        <defName>FCP_LeaderTitleMaker_Slaver</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->master</li>
+                <li>r_leaderTitle->overlord</li>
+                <li>r_leaderTitle->slavelord</li>
+                <li>r_leaderTitle->boss</li>
+                <li>r_leaderTitle->kingpin</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

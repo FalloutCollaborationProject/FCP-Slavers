@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Traders __________-->
+
+    <!--_____ Slaver Traders _____-->
+
+    <!--___ Slaver Slave Trader ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Slaver_Slave_Trader</defName>
+        <label>Paradise Falls Slave Trader</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!--__ Slaves __-->
+
+            <li Class="FCP.Core.StockGenerator_PawnsWithXenotype">
+                <ignoreIdeoRequirements>true</ignoreIdeoRequirements>
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>3~6</countRange>
+                <slaveKindDef>FCP_Slaver_Slave</slaveKindDef>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- Silver -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>500~1000</countRange>
+            </li>
+
+            <!-- Caps -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Currency">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>750~1500</countRange>
+            </li>
+
+            <!--__ Drugs __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>5~12</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>8~16</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Psycho</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Buffout</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Restraints __-->
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>PrisonerControl</tradeTag>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>5~12</countRange>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>
