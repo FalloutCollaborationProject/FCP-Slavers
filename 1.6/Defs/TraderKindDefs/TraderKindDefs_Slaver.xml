@@ -40,25 +40,70 @@
 
             <!--__ Drugs __-->
 
+            <!-- Smokeleaf Joint -->
+
             <li Class="StockGenerator_SingleDef">
                 <thingDef>SmokeleafJoint</thingDef>
                 <countRange>5~12</countRange>
             </li>
+
+            <!-- Beer -->
 
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Beer</thingDef>
                 <countRange>8~16</countRange>
             </li>
 
+            <!-- Psycho -->
+
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Psycho</thingDef>
                 <countRange>3~8</countRange>
             </li>
 
+            <!-- Buffout -->
+
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Buffout</thingDef>
                 <countRange>3~8</countRange>
             </li>
+
+            <!-- Jet -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Jet</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!-- Mentats -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Mentats</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <!-- Brutal Weapons -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Rebar_Club</thingDef>
+                <countRange>3~7</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Combat_Rifle_Standard</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>PlantFoodRaw</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
 
             <!--__ Restraints __-->
 

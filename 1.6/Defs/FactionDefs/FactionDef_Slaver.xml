@@ -31,7 +31,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Master</leaderTitle>
-        <factionIconPath>UI/Icons/WorldFactionIcons/PiratesWaster</factionIconPath>
+        <factionIconPath>World/WorldObjects/Expanding/WasterPirates</factionIconPath>
         <techLevel>Industrial</techLevel>
         <fixedName>Paradise Falls</fixedName>
         <settlementNameMaker>FCP_Namer_Settlement_Slavers</settlementNameMaker>

@@ -21,7 +21,7 @@
         <allowedPlaceTags>
             <li>OriginSpacer</li>
         </allowedPlaceTags>
-        <iconPath>UI/Icons/WorldFactionIcons/PiratesWaster</iconPath>
+        <iconPath>World/WorldObjects/Expanding/WasterPirates</iconPath>
         <styleItemTags>
             <li>
                 <tag>Wasteland</tag>
@@ -56,7 +56,7 @@
     <StyleCategoryDef>
         <defName>FCP_Style_Slaver</defName>
         <label>Slaver</label>
-        <iconPath>UI/Icons/WorldFactionIcons/PiratesWaster</iconPath>
+        <iconPath>World/WorldObjects/Expanding/WasterPirates</iconPath>
         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
         <thingDefStyles />
     </StyleCategoryDef>
