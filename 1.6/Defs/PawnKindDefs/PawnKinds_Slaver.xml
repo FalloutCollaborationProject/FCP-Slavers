@@ -97,6 +97,13 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
             <li>FCP_NCR_Apparel</li>
@@ -184,6 +191,13 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
             <li>FCP_NCR_Apparel</li>
@@ -271,6 +285,13 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
             <li>FCP_NCR_Apparel</li>
@@ -352,6 +373,13 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
             <li>FCP_NCR_Apparel</li>
@@ -398,6 +426,13 @@
         </forcedTraits>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>12~20</initialResistanceRange>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
             <li>FCP_NCR_Apparel</li>
