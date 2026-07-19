@@ -8,6 +8,7 @@
                 <value>
                     <li>
                         <kindDef>Combat</kindDef>
+                        <commonality>15</commonality>
                         <disallowedStrategies>
                             <li>EmergeFromWater</li>
                         </disallowedStrategies>
