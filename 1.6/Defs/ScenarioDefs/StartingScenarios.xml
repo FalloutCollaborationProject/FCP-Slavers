@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_Slaver_Outfit</defName>
+        <label>Slaver Outfit</label>
+        <description>The collars, the chains, the trade routes - none of it means anything without territory to run it from. Your outfit has the tools and the stomach for the work. All that's missing is a base to run it out of.</description>
+        <scenario>
+            <summary>A small slaver outfit sets up shop, looking to build a trade in human cargo.</summary>
+            <parts>
+
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Slaver_Guard</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Slaver_Guard</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Slaver_Collarer_Pawn</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Slaver_Trader</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Slaver_Enforcer_Pawn</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <count>150</count>
+                </li>
+
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>It is the year [FCP_Year]. The old boss is dead, the old base is gone, but the trade doesn't stop for either. Collars, chains, and a client list are worth more than most settlements will ever admit to wanting.\n\nAll you need now is somewhere to keep the merchandise.</text>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Hijacked Shipment -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Slaver_Hijacked_Shipment</defName>
+        <label>hostile camp</label>
+        <description>A rival gang holding a hijacked Slaver shipment.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Slaver_Hijacked_Shipment</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Slaver_Hijacked_Shipment_Outpost</defName>
+        <linkWithSite>FCP_Site_Slaver_Hijacked_Shipment</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+</Defs>
