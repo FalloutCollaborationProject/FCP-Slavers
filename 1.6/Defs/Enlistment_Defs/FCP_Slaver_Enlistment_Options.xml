@@ -10,6 +10,7 @@
         <currencyDef>Silver</currencyDef>
         <minGoodwillRequrementToEnlist>-10</minGoodwillRequrementToEnlist>
         <enlistGoodwillGain>5</enlistGoodwillGain>
+        <minGoodwillUponEnlist>75</minGoodwillUponEnlist>
 
         <!-- Enlistment Options -->
 
@@ -32,8 +33,8 @@
         <missionsMenuDescriptionKey>FCP_Slaver_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_Slaver_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_Slaver_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
-        <missionsQuestCost>100</missionsQuestCost>
-        <missionsMenuStartQuestNoEnoughMoneyKey>FCP_Slaver_Not_Enough_Money</missionsMenuStartQuestNoEnoughMoneyKey>
+        <missionsBountyRewardRange>60~160</missionsBountyRewardRange>
+        <missionsMenuCollectBountyKey>FCP_Slaver_Menu_Missions_Collect_Bounty</missionsMenuCollectBountyKey>
 
         <!-- Salary Options -->
 

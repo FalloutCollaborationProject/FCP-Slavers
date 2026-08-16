@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Abolitionist Liberation Raid __________-->
+
+    <IncidentDef>
+        <defName>FCP_Incident_AbolitionistLiberation</defName>
+        <label>abolitionist liberation raid</label>
+        <category>ThreatBig</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>FCP.Core.Abolitionists.IncidentWorker_AbolitionistLiberation</workerClass>
+        <letterLabel>Abolitionists</letterLabel>
+        <letterText>A band of abolitionists has come to free the people you keep in chains, by force if they have to. They don't have much in the way of guns or numbers, but they clearly weren't planning on leaving without them.</letterText>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>25</minRefireDays>
+        <pointsScaleable>true</pointsScaleable>
+    </IncidentDef>
+
+</Defs>

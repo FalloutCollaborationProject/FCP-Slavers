@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationSequence">
         <operations>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers</xpath>
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Jackals"]/pawnGroupMakers</xpath>
                 <value>
                     <li>
                         <kindDef>Combat</kindDef>
@@ -22,7 +22,7 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers/li[kindDef="Peaceful"]/options</xpath>
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Jackals"]/pawnGroupMakers/li[kindDef="Peaceful"]/options</xpath>
                 <value>
                     <FCP_Slaver_Boss>3</FCP_Slaver_Boss>
                     <FCP_Slaver_Trader>5</FCP_Slaver_Trader>
@@ -30,7 +30,7 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/FactionDef[defName="FCP_Faction_Raider"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+                <xpath>/Defs/FactionDef[defName="FCP_Faction_Jackals"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
                 <value>
                     <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
                     <FCP_Slaver_Trader>4</FCP_Slaver_Trader>

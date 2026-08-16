@@ -9,6 +9,10 @@
             <summary>A small slaver outfit sets up shop, looking to build a trade in human cargo.</summary>
             <parts>
 
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
+
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>8</pawnChoiceCount>
@@ -55,8 +59,9 @@
                     <count>150</count>
                 </li>
 
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
+                    <title>New Territory</title>
                     <text>It is the year [FCP_Year]. The old boss is dead, the old base is gone, but the trade doesn't stop for either. Collars, chains, and a client list are worth more than most settlements will ever admit to wanting.\n\nAll you need now is somewhere to keep the merchandise.</text>
                 </li>
 

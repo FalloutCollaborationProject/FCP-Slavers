@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Slaver Holding Pen -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Abolitionist_Slaver_Holding_Pen</defName>
+        <label>slaver holding pen</label>
+        <description>A Slaver outpost holding people bound for sale.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Abolitionist_Slaver_Holding_Pen</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Abolitionist_Slaver_Holding_Pen_Outpost</defName>
+        <linkWithSite>FCP_Site_Abolitionist_Slaver_Holding_Pen</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+</Defs>

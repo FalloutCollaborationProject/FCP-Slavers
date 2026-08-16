@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Abolitionists __________-->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Hannibal_Hamlin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Hannibal_Hamlin</pawnKind>
+        <faction>FCP_Faction_Abolitionists</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Hannibal</firstName>
+                <lastName>Hamlin</lastName>
+                <gender>Male</gender>
+                <age>55</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(85, 60, 45)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

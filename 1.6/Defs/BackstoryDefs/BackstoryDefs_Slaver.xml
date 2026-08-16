@@ -456,4 +456,115 @@
         </workDisables>
     </BackstoryDef>
 
+    <!--___ Paradise Falls (Unique) ___-->
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Eulogy_Jones</defName>
+        <title>head slaver</title>
+        <titleShort>head slaver</titleShort>
+        <baseDesc>[PAWN_nameDef] talked, bribed, and eventually murdered [PAWN_possessive] way to the top of Paradise Falls, and has kept it running on charm and threats ever since. [PAWN_pronoun] never gets [PAWN_possessive] own hands dirty when someone else's will do.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Eulogy_Jones</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>9</Social>
+            <Intellectual>3</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Grouse</defName>
+        <title>gatekeeper</title>
+        <titleShort>gatekeeper</titleShort>
+        <baseDesc>[PAWN_nameDef] mans the gate and doesn't let anyone through without paying for the privilege. Slaving is the family trade; [PAWN_possessive] father ran Paradise Falls until Eulogy Jones took the job from him the hard way, and [PAWN_nameDef] never brought it up again.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Grouse</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>4</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Forty</defName>
+        <title>pen watcher</title>
+        <titleShort>pen watcher</titleShort>
+        <baseDesc>[PAWN_nameDef] watches the slave pens for Eulogy Jones, a job that mostly means making sure nobody gets any clever ideas. [PAWN_pronoun] earned the name for a body count [PAWN_pronoun] stopped bothering to track once the victims stopped being able to fight back.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Forty</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+            <Intellectual>-3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Cutter</defName>
+        <title>pen-born medic</title>
+        <titleShort>medic</titleShort>
+        <baseDesc>Born into the pens [PAWN_nameDef] now treats for coin, [PAWN_nameDef] spent nearly a decade trading medical care to buy [PAWN_possessive] own freedom, then simply stayed on. [PAWN_pronoun] patches up whichever slaver can pay, and doesn't ask what happened to whoever couldn't.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Cutter</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>9</Medicine>
+            <Intellectual>4</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Jotun</defName>
+        <title>father's shadow</title>
+        <titleShort>father's shadow</titleShort>
+        <baseDesc>[PAWN_nameDef] follows [PAWN_possessive] father everywhere and doesn't say much beyond that [PAWN_pronoun]'s here to protect him. Conversation isn't [PAWN_possessive] strength, but swinging a sledgehammer through a locked door certainly is.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Jotun</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>-4</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Slaver_Ymir</defName>
+        <title>jovial madman</title>
+        <titleShort>madman</titleShort>
+        <baseDesc>[PAWN_nameDef] drinks hard, fights harder, and doesn't discuss where [PAWN_pronoun] came from before Paradise Falls. [PAWN_pronoun] once beat a bartender to death over a watered-down drink and considered the matter settled.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Slaver_Ymir</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+            <Social>-2</Social>
+        </skillGains>
+        <forcedTraits>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
 </Defs>

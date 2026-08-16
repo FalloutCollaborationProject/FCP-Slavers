@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Abolitionists _____-->
+
+    <!-- Base Abolitionist -->
+
+    <PawnKindDef Name="FCP_AbolitionistBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_Abolitionists</defaultFactionType>
+        <invNutrition>2.55</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Wastelander</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelTags>
+            <li>FCP_Slave_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+        </apparelTags>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Abolitionist Agent -->
+
+    <PawnKindDef ParentName="FCP_AbolitionistBase">
+        <defName>FCP_Abolitionist_Agent</defName>
+        <label>abolitionist</label>
+        <labelPlural>abolitionists</labelPlural>
+        <combatPower>50</combatPower>
+        <gearHealthRange>0.3~1.0</gearHealthRange>
+        <apparelMoney>150~350</apparelMoney>
+        <weaponMoney>180~300</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Bladed</li>
+            <li>NeolithicMelee</li>
+            <li>IndustrialGun</li>
+        </weaponTags>
+        <initialWillRange>3~6</initialWillRange>
+        <initialResistanceRange>8~15</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.8</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~30</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.Chems">FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.WastelandFood">FCP_Food_Black_Blood_Sausage</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Hannibal Hamlin (Unique) -->
+
+    <PawnKindDef ParentName="FCP_AbolitionistBase">
+        <defName>FCP_Unique_Pawnkind_Hannibal_Hamlin</defName>
+        <label>Hannibal Hamlin</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <factionLeader>true</factionLeader>
+        <combatPower>65</combatPower>
+        <gearHealthRange>0.6~1.4</gearHealthRange>
+        <apparelMoney>400~700</apparelMoney>
+        <weaponMoney>300~500</weaponMoney>
+        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li>IndustrialGun</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <initialWillRange>6~9</initialWillRange>
+        <initialResistanceRange>15~22</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Faction Defs __________-->
+
+    <!--_____ Abolitionists (Hidden) _____-->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_Abolitionists</defName>
+        <label>Abolitionists</label>
+        <description>A scattered network of escaped and freed slaves, organized in secret against the trade that once owned them. Founded and loosely led by Hannibal Hamlin, himself a runaway, they lack the numbers or the guns to fight the Slavers head-on, so they don't try to. They stay hidden, strike where they can get away with it, and pay well for anyone willing to cut a slave loose. They hold no grudge against a colony for what it believes, only for what it keeps in chains.</description>
+        <pawnSingular>abolitionist</pawnSingular>
+        <pawnsPlural>abolitionists</pawnsPlural>
+        <categoryTag>FCP_Faction_Abolitionists</categoryTag>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>2000</configurationListOrderPriority>
+        <displayInFactionSelection>false</displayInFactionSelection>
+        <fixedName>The Abolitionists</fixedName>
+        <hidden>true</hidden>
+        <colorSpectrum>
+            <li>(0.45, 0.6, 0.4)</li>
+        </colorSpectrum>
+        <leaderTitle>Conductor</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Sites/DownedRefugee</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <permanentEnemy>false</permanentEnemy>
+        <canSiege>false</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <rescueesCanJoin>true</rescueesCanJoin>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>No Man Owns Another</ideoName>
+        <ideoDescription>Every person the Abolitionists free is proof their creed still means something: no one gets to own another human being, and every chain is worth cutting no matter the cost.</ideoDescription>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+        </requiredMemes>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+        </disallowedMemes>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Wastelander</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Abolitionist_Agent>10</FCP_Abolitionist_Agent>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <modExtensions Inherit="False">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

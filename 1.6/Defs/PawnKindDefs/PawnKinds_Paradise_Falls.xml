@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Paradise Falls (Unique) _____-->
+
+    <!-- Eulogy Jones -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Eulogy_Jones</defName>
+        <label>Eulogy Jones</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <factionLeader>true</factionLeader>
+        <combatPower>90</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.8</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Business_Pre_War</li>
+        </apparelRequired>
+        <weaponMoney>500~800</weaponMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Eulogy_Jones</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>6~9</initialWillRange>
+        <initialResistanceRange>22~30</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Grouse -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Grouse</defName>
+        <label>Grouse</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>90</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>700~1200</apparelMoney>
+        <weaponMoney>500~800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Grouse</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~28</initialResistanceRange>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Forty -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Forty</defName>
+        <label>Forty</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>95</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>800~1400</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>
+                <def>FCP_Trait_Heavy_Handed</def>
+            </li>
+        </forcedTraits>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Forty</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Cutter -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Cutter</defName>
+        <label>Cutter</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Lab_Coat_Capital</li>
+        </apparelRequired>
+        <weaponMoney>160~300</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Cutter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Jotun -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Jotun</defName>
+        <label>Jotun</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>85</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>700~1200</apparelMoney>
+        <weaponMoney>700~900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>
+                <def>FCP_Trait_Tough</def>
+            </li>
+        </forcedTraits>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Jotun</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+    <!-- Ymir -->
+
+    <PawnKindDef ParentName="FCP_SlaverBase">
+        <defName>FCP_Unique_Pawnkind_Ymir</defName>
+        <label>Ymir</label>
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>90</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.6~1.6</gearHealthRange>
+        <apparelMoney>700~1200</apparelMoney>
+        <weaponMoney>700~900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
+            <li>IndustrialMelee</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>
+                <def>FCP_Trait_Tough</def>
+            </li>
+        </forcedTraits>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Slaver_Ymir</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>18~28</initialResistanceRange>
+        <apparelTags>
+            <li>FCP_Slaver_Apparel</li>
+            <li>FCP_Raider_Apparel</li>
+            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Combat_Armor_Modular</li>
+            <li>FCP_Combat_Armors</li>
+        </apparelTags>
+        <apparelDisallowTags>
+            <li>FCP_BoS_Apparel</li>
+            <li>FCP_NCR_Apparel</li>
+            <li>FCP_Legion_Apparel</li>
+            <li>FCP_Enclave_Apparel</li>
+            <li>FCP_USA_Apparel</li>
+            <li>FCP_Minutemen_Combat_Armor_Modular</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelDisallowTags>
+    </PawnKindDef>
+
+</Defs>

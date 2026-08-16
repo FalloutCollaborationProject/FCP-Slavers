@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Paradise Falls __________-->
+
+    <!-- Eulogy Jones -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Eulogy_Jones</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Eulogy_Jones</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Eulogy</firstName>
+                <lastName>Jones</lastName>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(15, 15, 15)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(70, 50, 35)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Grouse -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Grouse</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Grouse</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Grouse</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 45, 30)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>Stubble</beardDef>
+                <skinColorOverride>(200, 170, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Forty -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Forty</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Forty</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Forty</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(30, 30, 30)</hairColor>
+                <hairDef>Bowlcut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(90, 65, 50)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Cutter -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Cutter</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Cutter</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Cutter</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>31</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>BraidedKnot</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(210, 180, 150)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Jotun -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Jotun</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Jotun</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Jotun</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(160, 140, 100)</hairColor>
+                <hairDef>Mop</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(215, 190, 165)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Ymir -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Ymir</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Ymir</pawnKind>
+        <faction>FCP_Faction_Slaver</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Ymir</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>37</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>Stubble</beardDef>
+                <skinColorOverride>(195, 165, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>
