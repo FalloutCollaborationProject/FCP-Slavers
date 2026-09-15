@@ -47,12 +47,6 @@
                     <visible>false</visible>
                 </li>
 
-                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
-                    <def>FCP_StartEnlisted</def>
-                    <factionDef>FCP_Faction_Slaver</factionDef>
-                    <enlistOptionsDef>FCP_Enlistment_Slaver</enlistOptionsDef>
-                </li>
-
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>FCP_Currency_Caps</thingDef>

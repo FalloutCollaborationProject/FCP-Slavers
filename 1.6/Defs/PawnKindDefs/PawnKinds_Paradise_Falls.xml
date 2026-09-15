@@ -16,13 +16,12 @@
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.8~1.8</gearHealthRange>
         <apparelRequired>
-            <li>FCP_Apparel_Business_Pre_War</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Business_Pre_War</li>
         </apparelRequired>
         <weaponMoney>500~800</weaponMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
         </weaponTags>
         <requiredWorkTags>
             <li>Social</li>
@@ -52,8 +51,6 @@
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
-            <li>IndustrialGun</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -68,8 +65,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -97,9 +92,6 @@
         <weaponMoney>500~900</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
-            <li>IndustrialGun</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <forcedTraits>
             <li>
@@ -119,8 +111,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -145,7 +135,7 @@
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.6~1.6</gearHealthRange>
         <apparelRequired>
-            <li>FCP_Apparel_Lab_Coat_Capital</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Lab_Coat_Capital</li>
         </apparelRequired>
         <weaponMoney>160~300</weaponMoney>
         <weaponTags>
@@ -178,7 +168,6 @@
         <weaponMoney>700~900</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <forcedTraits>
             <li>
@@ -198,8 +187,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -227,7 +214,6 @@
         <weaponMoney>700~900</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <forcedTraits>
             <li>
@@ -247,8 +233,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>

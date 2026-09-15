@@ -100,7 +100,7 @@
         </maxPawnCostPerTotalPointsCurve>
 
         <pawnGroupMakers>
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
@@ -111,6 +111,13 @@
                     <FCP_Slaver_Enforcer_Pawn>7</FCP_Slaver_Enforcer_Pawn>
                     <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Grouse</li>
+                    <li>FCP_Character_Forty</li>
+                    <li>FCP_Character_Jotun</li>
+                    <li>FCP_Character_Ymir</li>
+                </characterDefs>
+                <characterChance>0.25</characterChance>
             </li>
 
             <li>
@@ -122,7 +129,7 @@
                 </options>
             </li>
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Settlement</kindDef>
                 <options>
                     <FCP_Slaver_Boss>2</FCP_Slaver_Boss>
@@ -131,6 +138,13 @@
                     <FCP_Slaver_Collarer_Pawn>6</FCP_Slaver_Collarer_Pawn>
                     <FCP_Slaver_Enforcer_Pawn>5</FCP_Slaver_Enforcer_Pawn>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Grouse</li>
+                    <li>FCP_Character_Forty</li>
+                    <li>FCP_Character_Jotun</li>
+                    <li>FCP_Character_Ymir</li>
+                </characterDefs>
+                <characterChance>0.25</characterChance>
             </li>
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
@@ -163,12 +177,6 @@
                     </li>
                 </roleOverrides>
             </li>
-            <li Class="FCP.Enlist.FactionEnlistOptions">
-                <enlistOptionsDefs>
-                    <li>FCP_Enlistment_Slaver</li>
-                </enlistOptionsDefs>
-                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
-            </li>
         </modExtensions>
     </FactionDef>
 
@@ -188,7 +196,7 @@
                         <li>Beer</li>
                         <li MayRequire="Rick.FCP.Chems">FCP_Chem_Psycho</li>
                         <li MayRequire="Rick.FCP.Chems">FCP_Chem_Buffout</li>
-                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Mentats</li>
+                        <li MayRequire="Rick.FCP.Chems,Rick.FCP.Plants">FCP_Chem_Mentats</li>
                         <li MayRequire="Rick.FCP.Chems">FCP_Chem_Stimpak</li>
                         <li MayRequire="Rick.FCP.Chems">FCP_Chem_MedX</li>
                         <li>FCP_Currency_Caps</li>

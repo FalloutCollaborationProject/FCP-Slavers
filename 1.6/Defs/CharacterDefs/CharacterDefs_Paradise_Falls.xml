@@ -90,6 +90,11 @@
         <pawnKind>FCP_Unique_Pawnkind_Cutter</pawnKind>
         <faction>FCP_Faction_Slaver</faction>
         <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
         <definitions>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Cutter</firstName>

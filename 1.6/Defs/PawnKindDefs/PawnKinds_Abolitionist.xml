@@ -50,10 +50,6 @@
         <weaponMoney>180~300</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Bladed</li>
-            <li>NeolithicMelee</li>
-            <li>IndustrialGun</li>
         </weaponTags>
         <initialWillRange>3~6</initialWillRange>
         <initialResistanceRange>8~15</initialResistanceRange>
@@ -90,8 +86,6 @@
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
-            <li>IndustrialGun</li>
         </weaponTags>
         <requiredWorkTags>
             <li>Social</li>

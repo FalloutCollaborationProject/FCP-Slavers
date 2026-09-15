@@ -34,9 +34,8 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
             <li>IndustrialGunAdvanced</li>
-            <li>IndustrialMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -101,8 +100,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -131,10 +128,7 @@
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Pistol</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
-            <li>IndustrialGun</li>
-            <li>IndustrialMelee</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -195,8 +189,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -225,10 +217,6 @@
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Blunt</li>
-            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Bladed</li>
-            <li>IndustrialGun</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -289,8 +277,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -320,8 +306,6 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
-            <li>IndustrialGun</li>
-            <li>IndustrialMelee</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -377,8 +361,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
@@ -409,8 +391,6 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
             <li>Gun</li>
-            <li>MeleeIndustrial</li>
-            <li>NeolithicMelee</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -430,8 +410,6 @@
             <li>FCP_Slaver_Apparel</li>
             <li>FCP_Raider_Apparel</li>
             <li>FCP_Wastelander_Apparel</li>
-            <li>FCP_Combat_Armor_Modular</li>
-            <li>FCP_Combat_Armors</li>
         </apparelTags>
         <apparelDisallowTags>
             <li>FCP_BoS_Apparel</li>
