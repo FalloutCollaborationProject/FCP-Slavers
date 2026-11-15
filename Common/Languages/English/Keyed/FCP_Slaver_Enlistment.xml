@@ -22,7 +22,10 @@
 	<FCP_Slaver_Menu_Missions_Select_Quest>Select Contract: </FCP_Slaver_Menu_Missions_Select_Quest>
 	<FCP_Slaver_Menu_Missions_Start_Quest>Take Contract</FCP_Slaver_Menu_Missions_Start_Quest>
 	<FCP_Slaver_Menu_Missions_Collect_Bounty>Collect Payment</FCP_Slaver_Menu_Missions_Collect_Bounty>
+<<<<<<< HEAD
 	<FCP_Slaver_Not_Enough_Money>Insufficient funds</FCP_Slaver_Not_Enough_Money>
+=======
+>>>>>>> 97f8ba2833d60a0957e95963f8eb3287259e28b9
 
 	<!-- Salary Options -->
 
