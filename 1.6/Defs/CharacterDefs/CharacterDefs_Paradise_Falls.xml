@@ -75,7 +75,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(30, 30, 30)</hairColor>
                 <hairDef>Bowlcut</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Muttonstache</beardDef>
                 <skinColorOverride>(90, 65, 50)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -155,7 +155,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(50, 40, 30)</hairColor>
                 <hairDef>Bald</hairDef>
-                <beardDef>Stubble</beardDef>
+                <beardDef>FCP_Beard_Survivalist</beardDef>
                 <skinColorOverride>(195, 165, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>

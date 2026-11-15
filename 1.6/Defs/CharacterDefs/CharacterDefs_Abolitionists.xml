@@ -23,7 +23,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(20, 20, 20)</hairColor>
                 <hairDef>Bald</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Survivalist</beardDef>
                 <skinColorOverride>(85, 60, 45)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
