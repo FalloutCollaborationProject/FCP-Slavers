@@ -177,6 +177,13 @@
                     </li>
                 </roleOverrides>
             </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_Slaver</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
         </modExtensions>
     </FactionDef>
 

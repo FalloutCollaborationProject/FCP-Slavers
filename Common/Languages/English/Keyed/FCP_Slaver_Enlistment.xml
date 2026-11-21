@@ -11,7 +11,7 @@
 	<FCP_Slaver_Enlist_Letter_Label>Welcome to Paradise Falls. You've proven yourself useful, and that's all that matters here. We deal in merchandise, pure and simple. Bring us quality stock, and you'll be rewarded handsomely.\n\nYour cut comes every ten days. Don't expect handouts - you earn what you deliver. We've got holding facilities at our compounds where you can stash goods between runs. The boss has work for anyone willing to get their hands dirty.\n\nRemember: business is business. Keep the merchandise in good condition, and we'll all profit.</FCP_Slaver_Enlist_Letter_Label>
 	<FCP_Slaver_Enlist_Button_Label>Join {FACTION_name}.</FCP_Slaver_Enlist_Button_Label>
 	<FCP_Slaver_Enlist_Button_Desc>Enter into a business arrangement with {FACTION_name}.</FCP_Slaver_Enlist_Button_Desc>
-	<FCP_Slaver_Enlist_Requrements_Not_Satisfied>You need minimum {0} standing, currently you have only {1}.</FCP_Slaver_Enlist_Requrements_Not_Satisfied>
+	<FCP_Slaver_Enlist_Requrements_Not_Satisfied>You need a minimum of -10 standing, currently you have only {0}.</FCP_Slaver_Enlist_Requrements_Not_Satisfied>
 	<FCP_Slaver_Enlisted_With_Key>Associated with: {FACTION_name}</FCP_Slaver_Enlisted_With_Key>
 
 	<!-- Mission Options -->
@@ -22,10 +22,7 @@
 	<FCP_Slaver_Menu_Missions_Select_Quest>Select Contract: </FCP_Slaver_Menu_Missions_Select_Quest>
 	<FCP_Slaver_Menu_Missions_Start_Quest>Take Contract</FCP_Slaver_Menu_Missions_Start_Quest>
 	<FCP_Slaver_Menu_Missions_Collect_Bounty>Collect Payment</FCP_Slaver_Menu_Missions_Collect_Bounty>
-<<<<<<< HEAD
 	<FCP_Slaver_Not_Enough_Money>Insufficient funds</FCP_Slaver_Not_Enough_Money>
-=======
->>>>>>> 97f8ba2833d60a0957e95963f8eb3287259e28b9
 
 	<!-- Salary Options -->
 

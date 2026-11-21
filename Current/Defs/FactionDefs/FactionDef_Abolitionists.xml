@@ -33,9 +33,9 @@
         <ideoName>No Man Owns Another</ideoName>
         <ideoDescription>Every person the Abolitionists free is proof their creed still means something: no one gets to own another human being, and every chain is worth cutting no matter the cost.</ideoDescription>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
-        <requiredMemes>
+        <forcedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-        </requiredMemes>
+        </forcedMemes>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
         </disallowedMemes>
